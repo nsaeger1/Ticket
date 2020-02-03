@@ -16,7 +16,7 @@ namespace Ticket
                 // ask user a question
                 Console.WriteLine("1) Read data from file.");
                 Console.WriteLine("2) Create file from data.");
-                Console.WriteLine("Enter any other key to exit.");
+                Console.Write("Enter any other key to exit: ");
                 // input response
                 choice = Console.ReadLine();
                 if (choice == "1")
@@ -30,7 +30,7 @@ namespace Ticket
                             string[] arr = line.Split(',');
                             foreach (var item in arr)
                             {
-                                Console.Write(item);
+                                Console.Write("{0,-15}", item.Substring(0,(item.Length > 14 ? 13 : item.Length)));
                             }
                             Console.WriteLine();
                         }
@@ -60,7 +60,7 @@ namespace Ticket
                         string assigned = Console.ReadLine();
                         Console.WriteLine("Enter Watching: ");
                         string watching = Console.ReadLine();
-                        streamWriter.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", ticketId, summary, status,priority,submitter,assigned,watching);
+                        streamWriter.WriteLine("{0},{1},{2},{3},{4},{5},{6}", ticketId, summary, status,priority,submitter,assigned,watching);
 
                         Console.WriteLine("Would you Like to enter another ticket?");
                         Console.Write("Enter N to exit: ");

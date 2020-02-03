@@ -1,0 +1,6 @@
+C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
