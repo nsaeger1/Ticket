@@ -1,5 +1,10 @@
 TicketID,Summary,Status,Priority,Submitter,Assigned,Watching
 1,This is a bug ticket,Open,High,Drew Kjell,Jane Doe,Drew Kjell|John Smith|Bill Jones
-2,test,open,high,nick,joe,sue
-3,example,in proccess,low,nick,sam,sue
-4,hey,closed,low,micky,micky,joe
+2,test,open,High,nick,joe,sue
+3,example,in proccess,Low,nick,sam,sue
+4,hey,closed,Low,micky,micky,joe
+0,a,a,Medium,a,a,a
+0,a,a,Medium,a,a,a
+0,a,2,High,2,a,a
+0,,2,High,2,a,a
+0,a,a,Medium,a,a,a

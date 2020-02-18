@@ -2,7 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket", "Ticket\Ticket.csproj", "{FB681CA9-3CB8-47BF-9D63-A9B1666D157A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{57E523BC-C389-48A2-AE0A-B8EAD4465FB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{C828FB5B-CE1B-4779-A89C-56AAF8255211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Movie Library", "Movie Library", "{2FDFE3F9-7548-4AC2-BB71-CD83FADE607B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +16,9 @@ Global
 		{FB681CA9-3CB8-47BF-9D63-A9B1666D157A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB681CA9-3CB8-47BF-9D63-A9B1666D157A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB681CA9-3CB8-47BF-9D63-A9B1666D157A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57E523BC-C389-48A2-AE0A-B8EAD4465FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57E523BC-C389-48A2-AE0A-B8EAD4465FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57E523BC-C389-48A2-AE0A-B8EAD4465FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57E523BC-C389-48A2-AE0A-B8EAD4465FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C828FB5B-CE1B-4779-A89C-56AAF8255211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C828FB5B-CE1B-4779-A89C-56AAF8255211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C828FB5B-CE1B-4779-A89C-56AAF8255211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C828FB5B-CE1B-4779-A89C-56AAF8255211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
