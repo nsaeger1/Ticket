@@ -4,3 +4,8 @@ C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\Ti
 C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\Ticket\obj\Debug\Ticket.csproj.CoreCompileInputs.cache
 C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\Ticket\obj\Debug\Ticket.exe
 C:\Users\lawl2\Desktop\WCTC\2020\Spring 2020\.NET Database Programming\Ticket\Ticket\obj\Debug\Ticket.pdb
+C:\Users\Nick\RiderProjects\Ticket\Ticket\obj\Debug\Ticket.csprojAssemblyReference.cache
+C:\Users\Nick\RiderProjects\Ticket\Ticket\obj\Debug\Ticket.exe
+C:\Users\Nick\RiderProjects\Ticket\Ticket\obj\Debug\Ticket.pdb
+C:\Users\Nick\RiderProjects\Ticket\Ticket\bin\Debug\Ticket.exe
+C:\Users\Nick\RiderProjects\Ticket\Ticket\bin\Debug\Ticket.pdb

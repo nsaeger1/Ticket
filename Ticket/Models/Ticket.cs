@@ -3,11 +3,12 @@
     public abstract class Ticket
     {
         private static int _currentId;
+        protected string TicketType { get; set; }
         protected int TicketId { get; }
         protected string Summary { get; }
-        protected Status Status{ get; set; }
-        protected Level Priority{ get; }
-        protected string Submitter{ get; }
+        public Status Status{ get; set; }
+        public Level Priority{ get; }
+        public string Submitter{ get; }
         protected string Assigned{ get; set; }
         protected string Watching{ get; }
 
@@ -22,8 +23,10 @@
             Watching = "Default Watching";
         }
         
-        protected Ticket(string summary, Level priority, string submitter, string watching)
+        
+        protected Ticket(string ticketType,string summary, Level priority, string submitter, string watching)
         {
+            TicketType = TicketType;
             TicketId = GetNextID();
             Summary = summary;
             Status = Status.Unassigned;
@@ -32,11 +35,10 @@
             Assigned = "";
             Watching = watching;
         }
-        protected Ticket(string summary, string status, Level priority, string submitter, string assigned, string watching)
+        protected Ticket(string summary, Level priority, string submitter, string assigned, string watching)
         {
             TicketId = GetNextID();
             Summary = summary;
-            Status = Status.Unassigned;
             Priority = priority;
             Submitter = submitter;
             Assigned = assigned;
@@ -52,5 +54,9 @@
         {
             return ++_currentId;
         }
+
+        public abstract string CSV();
+
+
     }
 }

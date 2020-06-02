@@ -4,7 +4,7 @@
     {
         private Level Severity { get; set; }
 
-        public Bug(string summary, Level priority, string submitter, string watching) : base(summary, priority, submitter, watching){}
+        public Bug(string ticketType,string summary, Level priority, string submitter, string watching) : base(ticketType, summary, priority, submitter, watching){}
 
         public void AssignTicket(string assigned)
         {
@@ -18,9 +18,11 @@
             Assigned = assigned;
         }
 
-        public Bug(string summary, string status, Level priority, string submitter, string assigned, string watching, Level severity) : base(summary, status, priority, submitter, assigned, watching)
+        public Bug(string summary, Status status, Level priority, string submitter, string assigned, string watching, Level severity) : base(summary,  priority, submitter, assigned, watching)
         {
+            TicketType = "Bug";
             Severity = severity;
+            Status = status;
         }
 
         public override string ToString()
@@ -28,9 +30,9 @@
             return $"{TicketId,-15}{Summary,-15}{Status,-15}{Priority,-15}{Submitter,-15}{Assigned,-15}{Watching,-15}{Severity, -15}";
         }
 
-        public string CSV()
+        public override string CSV()
         {
-            return $"{TicketId},{Summary},{Status},{Priority},{Submitter},{Assigned},{Watching},{Severity}";
+            return $"{TicketType},{TicketId},{Summary},{Status},{Priority},{Submitter},{Assigned},{Watching},{Severity}";
 
         }
 

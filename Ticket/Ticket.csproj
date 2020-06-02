@@ -38,7 +38,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileSystem\ReadFile.cs" />
     <Compile Include="Models\ITicket.cs" />
     <Compile Include="Models\Level.cs" />
     <Compile Include="Models\Status.cs" />
@@ -48,8 +47,6 @@
     <Compile Include="Models\Enhancement.cs" />
     <Compile Include="Models\Task.cs" />
     <Compile Include="Models\Ticket.cs" />
-    <Compile Include="UserInterface\Menu.cs" />
-    <Compile Include="UserInterface\TicketSystem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

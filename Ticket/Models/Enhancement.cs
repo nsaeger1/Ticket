@@ -19,31 +19,34 @@
             Assigned = assigned;
         }
 
-        public Enhancement(string summary, Level priority, string submitter, string watching, string software, int cost, string reason, int estimate) : base(summary, priority, submitter, watching)
+        public Enhancement(string ticketType,string summary, Level priority, string submitter, string watching, string software, int cost, string reason, int estimate) : base(ticketType, summary, priority, submitter, watching)
         {
+            TicketType = "Enhancment";
             Software = software;
             Cost = cost;
             Reason = reason;
             Estimate = estimate;
         }
 
-        public Enhancement(string summary, string status, Level priority, string submitter, string assigned,
-            string watching, string software, int cost, string reason, int estimate) : base(summary, status, priority,
+        public Enhancement(string summary, Status status, Level priority, string submitter, string assigned,
+            string watching, string software, int cost, string reason, int estimate) : base(summary,  priority,
             submitter, assigned, watching)
         {
+            TicketType = "Enhancment";
             Software = software;
             Cost = cost;
             Reason = reason;
             Estimate = estimate;
+            Status = status;
         }
         public override string ToString()
         {
             return $"{TicketId,-15}{Summary,-15}{Status,-15}{Priority,-15}{Submitter,-15}{Assigned,-15}{Watching,-15}{Software, -15}{Cost,-15}{Reason,-15}{Estimate,-15}";
         }
 
-        public string CSV()
+        public override string CSV()
         {
-            return $"{TicketId},{Summary},{Status},{Priority},{Submitter},{Assigned},{Watching},{Software},{Cost},{Reason},{Estimate}";
+            return $"{TicketType},{TicketId},{Summary},{Status},{Priority},{Submitter},{Assigned},{Watching},{Software},{Cost},{Reason},{Estimate}";
 
         }
     }
